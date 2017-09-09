@@ -1,4 +1,45 @@
 
 public class VirtualPet {
 
+	int hungerLevel;
+	int tiredLevel;
+	int boredLevel;
+
+	boolean dragonLives() {
+		if (boredLevel < 50 && hungerLevel < 50 && tiredLevel < 50) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	void tick() {
+		hungerLevel = hungerLevel + 10;
+		tiredLevel = tiredLevel + 5;
+		boredLevel = boredLevel + 15;
+	}
+
+	void comandFeed() {
+		hungerLevel = hungerLevel - 25;
+		tiredLevel = tiredLevel + 10;
+		boredLevel = boredLevel - 5;
+	}
+
+	void comandSleep() {
+		hungerLevel = hungerLevel + 10;
+		tiredLevel = tiredLevel - 30;
+		boredLevel = boredLevel + 5;
+	}
+
+	void comandPlay() {
+		hungerLevel = hungerLevel + 15;
+		tiredLevel = tiredLevel + 20;
+		boredLevel = boredLevel - 25;
+	}
 }
+
+// Required in VirtualPet class
+// + - [ ] Create a `tick()` method that represents the passage of time.
+// + - [ ] Create at least three instance variables (aka attributes aka
+// properties aka fields).
+// + - [ ] Create at least three methods (messages you send to your pet).
