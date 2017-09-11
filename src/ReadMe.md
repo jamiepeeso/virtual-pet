@@ -9,6 +9,6 @@ If you choose to feed your dragon the dragon's hunger level will go down by 25, 
 
 Need levels are also adjusted at the end of each turn.
 
-If your dragon's need levels go above 50 your dragon has dies.
+If your dragon's need levels go above 50 your dragon has died.
 
 Have fun and keep an eye out for more to come!
