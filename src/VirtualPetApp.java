@@ -9,6 +9,8 @@ public class VirtualPetApp {
 		dragon.hungerLevel = 0;
 		dragon.tiredLevel = 0;
 		
+		System.out.println(dragon.dragonPicture);
+		
 		System.out.println("Hello brave soul you have just adopted a baby Dragon!");
 		System.out.println("What would you like to name your new baby Dragon?");
 		String dragonName = input.nextLine();
