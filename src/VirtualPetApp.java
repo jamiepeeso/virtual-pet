@@ -17,7 +17,7 @@ public class VirtualPetApp {
 		dragon.tick();
 		
 		System.out.println("Here are " + dragonName + "'s current need levels.");
-		System.out.println("*Tip* Do not let ANY of " + dragonName + "'s need levels go over 50 or you WILL lose this rare pet.");
+		System.out.println("*Tip* Do not let ANY of " + dragonName + "'s need levels go over 50 after your turn or you WILL lose this rare pet.");
 		
 		while(dragon.dragonLives()) {
 			dragon.tick();
