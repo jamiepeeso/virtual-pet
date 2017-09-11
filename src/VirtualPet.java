@@ -5,6 +5,10 @@ public class VirtualPet {
 	int tiredLevel;
 	int boredLevel;
 
+	String pictureOfDragon() {
+		return ("");
+		}
+
 	boolean dragonLives() {
 		if (boredLevel < 50 && hungerLevel < 50 && tiredLevel < 50) {
 			return true;
