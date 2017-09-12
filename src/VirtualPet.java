@@ -36,9 +36,9 @@ public class VirtualPet {
 			"                           /");
 	
 	void tick() {
-		hungerLevel = hungerLevel + 10;
+		hungerLevel = hungerLevel + 5;
 		tiredLevel = tiredLevel + 5;
-		boredLevel = boredLevel + 15;
+		boredLevel = boredLevel + 5;
 	}
 
 	void comandFeed() {
